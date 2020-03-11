@@ -1,0 +1,30 @@
+{
+    "id": "1",
+    "version": "1",
+    "name": "Customers:2",
+    "type": "http",
+    "tags": ["text"],
+    "scope": "tenant",
+    "status": "active",
+    "owner": "fberque",
+    "creationdate": "10/1/2019",
+    "description": "My Customer dataset",
+    "mode": "r",
+    "access": {
+        "scheme": "http", 
+        "host": "localhost", 
+        "port": "80",
+        "path": "/home/customers", 
+        "proxy": ""
+    },
+    "authentication": {
+        "type": "AuthenticationBasic",
+        "username": "fred",
+        "password": "xxxx"
+    },
+    "caching": {
+        "active": true,
+        "duration":  3600
+    },
+    "checksum": "FFGHGJGGJgJGJGI"
+}

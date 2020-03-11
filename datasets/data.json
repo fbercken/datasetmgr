@@ -1,0 +1,30 @@
+{
+    "_id": "data:1",
+    "version": "1",
+    "name": "data:1",
+    "type": "http",
+    "tags": ["text"],
+    "scope": "tenant",
+    "status": "active",
+    "owner": "fberque",
+    "creationdate": "10/1/2019",
+    "description": "My HTTP dataset",
+    "mode": "r",
+    "access": {
+        "scheme": "http", 
+        "host": "localhost", 
+        "port": "3333",
+        "path": "/data.json", 
+        "proxy": ""
+    },
+    "authentication": {
+        "type": "AuthenticationBasic",
+        "username": "fred",
+        "password": "xxxx"
+    },
+    "caching": {
+        "active": true,
+        "duration":  3600
+    },
+    "checksum": "FFGHGJGGJgJGJGI"
+}
